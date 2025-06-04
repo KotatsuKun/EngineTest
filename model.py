@@ -11,7 +11,7 @@ class Cube:
         self.shader_program = self.get_shader_program('default')
         self.vao = self.get_vao()
         self.m_model = self.get_model_matrix()
-        self.texture = self.get_texture(path='textures\img.png')
+        self.texture = self.get_texture(path='textures/img.png')
         self.on_init()
 
     def get_texture(self, path):

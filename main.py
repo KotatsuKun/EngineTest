@@ -5,9 +5,7 @@ import screeninfo
 from model import *
 from camera import Camera
 
-
-
-class GraphicsEngine:
+class GraphicsEngine():
     def __init__(self, win_size=(1600/2, 900/2)):
         #init pygame modules
         pg.init()
@@ -32,7 +30,7 @@ class GraphicsEngine:
         #cam
         self.cam = Camera(self)
         #scene
-        #self.scene = Cube(self)
+        self.scene = Cube(self)
 
 
     def check_events(self):
