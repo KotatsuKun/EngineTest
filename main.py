@@ -32,7 +32,7 @@ class GraphicsEngine:
         #cam
         self.cam = Camera(self)
         #scene
-        self.scene = Cube(self)
+        #self.scene = Cube(self)
 
 
     def check_events(self):
